@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Aula 10 Cálculo de idade 14/04/23 02:05</h1>
+
+
+    <script>    
+
+        var anoNascimento = prompt("Informe o ano do seu nascimento")
+        var anoAtual = prompt("Informe o ano atual")
+        
+        while(anoNascimento >= 2023){
+            alert('Informe sua data de nascimento corretamente');
+            anoNascimento = prompt("Informe o ano do seu nascimento");
+        }
+
+        var idadeFinal = anoAtual - anoNascimento;
+
+        alert(' Sua idade é: '+idadeFinal)
+
+    </script>
+
+
+</body>
+</html>
